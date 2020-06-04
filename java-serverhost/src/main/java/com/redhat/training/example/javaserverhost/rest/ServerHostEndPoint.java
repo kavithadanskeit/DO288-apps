@@ -1,4 +1,4 @@
-package com.redhat.training.example.javaserverhost.rest;
+ipackage com.redhat.training.example.javaserverhost.rest;
 
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
@@ -19,7 +19,7 @@ public class ServerHostEndPoint {
     catch (Exception e) {
        e.printStackTrace();
     }
-    String msg = "I am running on server "+host+" Version 1.0 \n";
+    String msg = "I am running on server "+host+" Version 2.0 by Kavitha K  \n";
     return Response.ok(msg).build();
   }
 }
