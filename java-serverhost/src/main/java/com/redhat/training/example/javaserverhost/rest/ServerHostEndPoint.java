@@ -1,4 +1,4 @@
-ipackage com.redhat.training.example.javaserverhost.rest;
+package com.redhat.training.example.javaserverhost.rest;
 
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
